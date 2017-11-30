@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-div {
+  flex: 1 0 auto; 
+  display: flex;
+  padding: 5em;
+}
+
+.body-1, .body-2 {
+  padding: 2em;
+  justify-content: center;
+}
+
+.body-1 {
+  width: 45%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.body-2 {
+  width: 55%;
+  display: none;
+  text-align: center;
+}
+
+.body-2 > img {
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+}
+
