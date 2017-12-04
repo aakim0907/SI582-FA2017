@@ -10,6 +10,16 @@ body {
   flex-direction: column;
 }
 
+/* landing.html */
+.landing-body {
+  flex: 1 0 auto; 
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+/* index.html */
 .body-div {
   flex: 1 0 auto; 
   display: flex;
